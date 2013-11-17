@@ -23,7 +23,4 @@ TARGET_OTA_ASSERT_DEVICE := t869,SGH-T869
 
 TARGET_KERNEL_CONFIG := cyanogenmod_t869_defconfig
 
-TARGET_RECOVERY_FSTAB := device/samsung/smdk4210-tab/fstab.smdk4210
-RECOVERY_FSTAB_VERSION := 2 
-
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/t869/bluetooth
