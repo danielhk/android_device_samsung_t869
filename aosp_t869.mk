@@ -15,8 +15,8 @@
 #
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 600
-TARGET_SCREEN_WIDTH := 1024
+TARGET_SCREEN_HEIGHT := 800
+TARGET_SCREEN_WIDTH := 1280
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -27,7 +27,7 @@ PRODUCT_BRAND := Samsung
 PRODUCT_DEVICE := t869
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := SGH-T869
-PRODUCT_NAME := cm_t869
+PRODUCT_NAME := aosp_t869
 PRODUCT_RELEASE_NAME := SGH-T869
 
 # Set product name and build fingerprint
