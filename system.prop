@@ -6,3 +6,4 @@ ro.ril.hsxpa=1
 ro.ril.gprsclass=10
 # mdpi
 ro.sf.lcd_density=160
+ro.opengles.version = 131072
