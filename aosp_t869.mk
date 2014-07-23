@@ -14,21 +14,20 @@
 # limitations under the License.
 #
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 800
+TARGET_SCREEN_WIDTH := 1280
+
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
-
-# Inherit from our omni product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
-
-# Pull in GSM-specific stuff such as APNs
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := Samsung
 PRODUCT_DEVICE := t869
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := SGH-T869
-PRODUCT_NAME := omni_t869
+PRODUCT_NAME := aosp_t869
 PRODUCT_RELEASE_NAME := SGH-T869
 
 # Set product name and build fingerprint

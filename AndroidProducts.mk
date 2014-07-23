@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp.mk \
-    $(LOCAL_DIR)/omni.mk \
+    $(LOCAL_DIR)/aosp_t869.mk \
+    $(LOCAL_DIR)/omni_t869.mk \
     $(LOCAL_DIR)/cm.mk
