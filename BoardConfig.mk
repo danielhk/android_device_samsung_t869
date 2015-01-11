@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,3 +24,5 @@ TARGET_OTA_ASSERT_DEVICE := t869,SGH-T869
 TARGET_KERNEL_CONFIG := cyanogenmod_t869_defconfig
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/t869/bluetooth
+
+CUSTOM_BUILD := true
