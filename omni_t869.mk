@@ -14,6 +14,13 @@
 # limitations under the License.
 #
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 600
+TARGET_SCREEN_WIDTH := 1024
+
+# for TWRP
+DEVICE_RESOLUTION := 1024x600
+
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
