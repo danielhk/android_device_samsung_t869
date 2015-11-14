@@ -26,3 +26,5 @@ TARGET_KERNEL_CONFIG := cyanogenmod_t869_defconfig
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/t869/bluetooth
 
 CUSTOM_BUILD := true
+
+BOARD_RIL_CLASS := ../../../device/samsung/smdk4210-tab/overlay/telephony
