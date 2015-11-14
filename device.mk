@@ -34,8 +34,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	mobiledata.interfaces=pdp0,wlan0,gprs,ppp0
 
 PRODUCT_COPY_FILES += \
+    device/samsung/smdk4210-tab/configs/etc/old-apns-conf.xml:system/etc/old-apns-conf.xml \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
+# extra packages
 PRODUCT_PACKAGES += \
     Mms \
     SamsungServiceMode
