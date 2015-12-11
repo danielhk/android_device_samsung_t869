@@ -19,6 +19,10 @@ $(call inherit-product-if-exists, vendor/samsung/t869/vendor.mk)
 # Set preferred size for assets
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 
+# use init.smdk4210.rc for t869
+PRODUCT_COPY_FILES += \
+    device/samsung/smdk4210-tab/rootdir/init.smdk4210.rc:root/init.smdk4210.rc
+
 # GPS
 $(call inherit-product, device/common/gps/gps_eu_supl.mk)
 PRODUCT_COPY_FILES += \
