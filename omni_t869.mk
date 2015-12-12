@@ -23,6 +23,7 @@ DEVICE_RESOLUTION := 1024x600
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
+$(call inherit-product, vendor/omni/config/common_tablet.mk)
 
 # Pull in GSM-specific stuff such as APNs
 $(call inherit-product, vendor/omni/config/gsm.mk)
