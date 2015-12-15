@@ -44,5 +44,5 @@ PRODUCT_COPY_FILES += \
 # extra packages
 PRODUCT_PACKAGES += \
     libsecril-client \
-    Mms \
+    messaging \
     SamsungServiceMode
