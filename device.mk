@@ -43,4 +43,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     Mms \
-    SamsungServiceMode
+    SamsungServiceMode \
+    libsecril-client
+
