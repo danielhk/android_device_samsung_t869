@@ -19,6 +19,8 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/t869/overlay
 # Include common smdk4210-tab configuration
 -include device/samsung/smdk4210-tab/BoardConfigCommon.mk
 
+TARGET_IS_TAB_P2 := true
+
 TARGET_OTA_ASSERT_DEVICE := t869,SGH-T869
 
 TARGET_KERNEL_CONFIG := cyanogenmod_t869_defconfig
