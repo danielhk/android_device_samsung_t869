@@ -32,7 +32,7 @@ PRODUCT_COPY_FILES += \
 # We need to build the GPS interposition library for the GPS to work, also M removes
 # libstlport, but some of our blobs need it, so we add it back in source
 PRODUCT_PACKAGES += \
-	libdmitry
+    libdmitry
 
 # Radio
 $(call inherit-product, build/target/product/telephony.mk)
@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
 PRODUCT_PACKAGES += \
-    Mms \
     SamsungServiceMode \
     libsecril-client
 
